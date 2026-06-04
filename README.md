@@ -5,7 +5,7 @@ Here's a comprehensive README for your project starter setup:
 
 A production-ready Docker development environment for full-stack applications with Django backend and React/Vite frontend. This starter template provides a complete local development setup with all necessary services containerized.
 
-## 🚀 Tech Stack
+##  Tech Stack
 
 ### Frontend
 - **React** with **Vite** (v8+)
@@ -24,13 +24,13 @@ A production-ready Docker development environment for full-stack applications wi
 - **Docker** with Docker Compose for containerization
 - **Makefile** for simplified command execution
 
-## 📋 Prerequisites
+## Prerequisites
 
 - Docker and Docker Compose installed
 - Make (optional, but recommended)
 - Git
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 ├── backend/
@@ -55,7 +55,7 @@ A production-ready Docker development environment for full-stack applications wi
 └── README.md
 ```
 
-## ⚡ Quick Start
+## Quick Start
 
 ### 1. Clone and Setup
 
@@ -87,7 +87,7 @@ docker compose up --build -d
 - **Flower Dashboard**: http://localhost:5558 (Credentials: admin/admin1234)
 - **Database**: localhost:5434
 
-## 📜 Available Make Commands
+## Available Make Commands
 
 ### Development Environment
 ```bash
@@ -134,7 +134,7 @@ make isort         # Apply import sorting
 make volume        # Inspect PostgreSQL volume
 ```
 
-## 🐳 Docker Services
+## Docker Services
 
 | Service | Description | Port (Dev) | Port (Prod) |
 |---------|-------------|------------|-------------|
@@ -148,7 +148,7 @@ make volume        # Inspect PostgreSQL volume
 | celery_beat | Scheduled task runner | - | - |
 | flower | Celery monitoring dashboard | 5558 | 5558 |
 
-## 🔧 Configuration
+## Configuration
 
 ### Environment Variables
 
@@ -192,7 +192,7 @@ The development Nginx configuration includes:
 - Gzip compression
 - Media file serving with caching
 
-## 🔄 Development Workflow
+## Development Workflow
 
 1. **Start Development**: `make build-dev`
 2. **Frontend Changes**: Edit files in `./client/` - HMR will auto-reload
@@ -205,7 +205,7 @@ The development Nginx configuration includes:
 5. **View Logs**: `make show-logs`
 6. **Stop Environment**: `make down`
 
-## 🚢 Production Deployment
+## Production Deployment
 
 ```bash
 # Build production environment
@@ -218,7 +218,7 @@ make migrate
 make collectstatic
 ```
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Vite Dev Server Not Accessible
 - Ensure `host: '0.0.0.0'` is set in `vite.config.js`
@@ -248,7 +248,7 @@ make collectstatic
 - **Logs**: `make show-logs`
 - **Container Status**: `docker compose ps`
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create your feature branch
@@ -260,12 +260,12 @@ make collectstatic
 
 [Your License Here]
 
-## 🆘 Support
+## Support
 
 For issues and questions, please [open an issue](your-repo-issues-link) on the repository.
 
 ---
 
-**Happy Coding! 🎉**
+**Happy Coding!**
 
 This README provides comprehensive documentation for your project starter setup. You can customize the project name, repository links, and specific configurations based on your actual project needs.
