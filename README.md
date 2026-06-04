@@ -1,6 +1,6 @@
 Here's a comprehensive README for your project starter setup:
 
-```markdown
+
 # Project Starter Setup
 
 A production-ready Docker development environment for full-stack applications with Django backend and React/Vite frontend. This starter template provides a complete local development setup with all necessary services containerized.
@@ -267,6 +267,5 @@ For issues and questions, please [open an issue](your-repo-issues-link) on the r
 ---
 
 **Happy Coding! 🎉**
-```
 
 This README provides comprehensive documentation for your project starter setup. You can customize the project name, repository links, and specific configurations based on your actual project needs.
