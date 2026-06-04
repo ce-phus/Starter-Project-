@@ -1,0 +1,8 @@
+#!/bin/bash
+
+set -o errexit
+set -o nounset
+
+watchmedo auto-restart -d /django_app/bookstore/ -p "*.py" -- celery -A bookstore.celery_app worker --loglevel=info
+
+
